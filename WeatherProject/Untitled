@@ -1,0 +1,18 @@
+curl --request GET \
+	--url 'https://skyscanner-skyscanner-flight-search-v1.p.rapidapi.com/apiservices/browseroutes/v1.0/US/USD/en-US/SFO-sky/ORD-sky/2019-09-01?inboundpartialdate=2019-12-01' \
+	--header 'x-rapidapi-host: skyscanner-skyscanner-flight-search-v1.p.rapidapi.com' \
+	--header 'x-rapidapi-key: 5a715d4354msh1fcc139278672c4p187013jsnd16c089b9db0
+
+  const options = {
+	"method": "GET",
+	"hostname": "skyscanner-skyscanner-flight-search-v1.p.rapidapi.com",
+	"port": null,
+	"path": "/apiservices/browseroutes/v1.0/US/USD/en-US/SFO-sky/ORD-sky/2019-09-01?inboundpartialdate=2019-12-01",
+	"headers": {
+		"x-rapidapi-key": "5a715d4354msh1fcc139278672c4p187013jsnd16c089b9db0",
+		"x-rapidapi-host": "skyscanner-skyscanner-flight-search-v1.p.rapidapi.com",
+		"useQueryString": true
+	}
+};
+
+const req = http.request(options, function (res) {
